@@ -10,9 +10,6 @@ body {
 
 .description {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .label,
@@ -62,7 +59,7 @@ body {
   border: none;
   overflow: hidden;
   color: white;
-  background: linear-gradient(hsl(0, 80%, 86%), #ee8c8c);
+  background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   font-size: 30px;
   position: absolute;
   left: 38%;
