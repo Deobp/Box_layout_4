@@ -8,14 +8,17 @@ body {
   display: flex;
 }
 
-.description {
+.mid {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
 .label,
 .message,
 .text,
-.form-email {
+.form-email,
+.logo {
   width: 60%;
 }
 
@@ -50,6 +53,7 @@ body {
   overflow: hidden;
   border-color: hsl(0, 6%, 24%);
   color: hsl(0, 93%, 68%);
+  outline: none;
 }
 
 #arrow {
