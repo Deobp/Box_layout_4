@@ -67,6 +67,7 @@ body {
   font-size: 30px;
   position: absolute;
   left: 38%;
+  box-shadow: 0 5px 20px 1px hsl(0deg 80% 86%);
 }
 
 #arrow:hover {
