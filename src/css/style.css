@@ -50,10 +50,10 @@ body {
   width: 90%;
   height: 50px;
   border-radius: 100px;
-  overflow: hidden;
-  border-color: hsl(0, 6%, 24%);
   color: hsl(0, 93%, 68%);
+  border: 1px solid hsl(0, 36%, 70%);
   outline: none;
+  overflow: hidden;
 }
 
 #arrow {
