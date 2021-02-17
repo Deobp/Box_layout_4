@@ -71,5 +71,5 @@ body {
 }
 
 #arrow:hover {
-  background: linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  background: linear-gradient(135deg, hsl(0, 89%, 89%), hsl(0, 85%, 82%));
 }
