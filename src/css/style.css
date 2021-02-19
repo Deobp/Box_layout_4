@@ -26,6 +26,7 @@ body {
 .message h1,
 .text p {
   color: hsl(0, 36%, 70%);
+  font-weight: 300;
 }
 
 .text p {
@@ -34,6 +35,7 @@ body {
 
 #coming {
   color: black;
+  font-weight: 600;
 }
 .photo {
   display: flex;
