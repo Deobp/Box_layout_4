@@ -5,6 +5,10 @@ body {
   background-image: url("../img/bg-pattern-desktop.svg");
 }
 
+input:focus-visible {
+  outline: none;
+}
+
 .container {
   display: flex;
 }
