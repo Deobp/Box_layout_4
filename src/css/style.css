@@ -24,10 +24,16 @@ input:focus-visible {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
-.mid h1 {
-  display: contents;
+.mid span {
+  display: block;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
 }
 
 .message h1,
