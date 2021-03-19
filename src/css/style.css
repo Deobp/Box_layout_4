@@ -1,70 +1,58 @@
-* {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  width: 100%;
+section {
+  display: flex;
   height: 100vh;
-  font-family: "Josefin Sans", sans-serif;
-  background-image: url("../img/bg-pattern-desktop.svg");
 }
 
-input:focus-visible {
-  outline: none;
+#content {
+  width: 50%;
+  padding: 0 40px;
+  margin: 0 auto;
+  background-image: url(../img/bg-pattern-desktop.svg);
+  background-position: center;
+  background-size: cover;
 }
 
-.container {
-  display: flex;
+#logo {
+  margin-top: 1em;
 }
 
-.mid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+#text {
+  margin-top: 50%;
 }
 
-.mid span {
-  display: block;
+#bg {
+  background-image: url("../img/hero-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
 }
 
-.message h1,
-.text p {
+#logo,
+#text,
+#form {
+  padding: 0 40px;
+}
+
+h1,
+p {
   color: hsl(0, 36%, 70%);
   font-weight: 300;
 }
 
-.text p {
-  font-size: 16px;
-}
-
-#coming {
+span {
   color: black;
   font-weight: 600;
 }
-.photo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-}
 
-.photo img {
-  width: 100%;
-  height: 100%;
-}
-
-#email {
-  width: 90%;
-  height: 50px;
-
-  border: none;
-  padding: 0.2em 1.5em;
-}
-
-.form form {
+#form form {
   display: flex;
   border: 1px solid hsl(0, 36%, 70%);
   border-radius: 100px;
@@ -72,7 +60,8 @@ input:focus-visible {
   outline: none;
   overflow: hidden;
 }
-#arrow {
+
+#button-arrow {
   width: 100px;
   height: 56px;
   border-radius: 100px;
@@ -83,12 +72,24 @@ input:focus-visible {
   box-shadow: 0 5px 20px 1px hsl(0deg 80% 86%);
 }
 
-#arrow:hover {
-  background: linear-gradient(135deg, hsl(0, 89%, 89%), hsl(0, 85%, 82%));
+input:focus-visible {
+  outline: none;
 }
 
-@media screen and (max-width: 850px) {
-  .container {
-    flex-direction: column-reverse;
+#form input {
+  border: 0;
+}
+
+#email {
+  width: 90%;
+  height: 50px;
+  border: none;
+  padding: 0.2em 1.5em;
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Box_layout_4</title>
+    <title>Layout_4</title>
     <link href="src/css/style.css" type="text/css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -13,31 +13,38 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="logo"><img src="src/img/logo.svg" /></div>
-      <div class="mid">
-        <h1>WE'RE<span id="coming">COMING</span> <span>SOON</span></h1>
-        <p>
-          Hello fellow shopers! We're currently building our new fashion store.
-          Add your email below to stay up to date with announcements and our
-          launch deals.
-        </p>
-        <div class="form">
-          <form>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email Adress"
-              required
-            />
-            <button id="arrow">
-              <img src="src/img/icon-arrow.svg" />
-            </button>
-          </form>
+    <section>
+      <div id="content">
+        <div id="wrappper">
+          <div id="logo">
+            <img src="src/img/logo.svg" />
+          </div>
+
+          <div id="text">
+            <h1 id="coming">WE'RE <span>COMING SOON</span></h1>
+            <p id="greeting">
+              Hello Fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+          </div>
+          <div id="form">
+            <form>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Adress"
+                required
+              />
+              <button id="button-arrow">
+                <img src="src/img/icon-arrow.svg" />
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-      <div class="photo"><img src="src/img/hero-desktop.jpg" /></div>
-    </div>
+      <div id="bg"></div>
+    </section>
   </body>
 </html>
