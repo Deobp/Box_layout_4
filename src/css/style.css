@@ -99,7 +99,7 @@ input:focus-visible {
   .bg {
     visibility: hidden;
   }
-  .bg-top {
+  .bg-mobile {
     visibility: initial;
     background-image: url("../img/hero-mobile.jpg");
   }
