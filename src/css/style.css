@@ -36,7 +36,6 @@ section {
 
 #bg {
     background-image: url("../img/hero-desktop.jpg");
-    background-position: center;
     background-size: cover;
     width: 45%;
 }
@@ -130,7 +129,6 @@ input:focus-visible {
         visibility: hidden;
     }
     #bg-mobile {
-        visibility: initial;
         background-image: url("../img/hero-mobile.jpg");
         background-size: contain;
         background-repeat: no-repeat;
