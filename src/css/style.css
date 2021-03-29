@@ -40,6 +40,10 @@ section {
     width: 45%;
 }
 
+#bg-mobile {
+    visibility: hidden;
+}
+
 #logo,
 #text,
 #form {
@@ -140,10 +144,14 @@ input:focus-visible {
     #bg {
         visibility: hidden;
     }
+    #bg-mobile {
+        text-align: center;
+    }
     #bg-mobile img {
         background-size: contain;
         background-repeat: no-repeat;
-        text-align: center;
+        visibility: visible;
+        width: 100%;
     }
     #text {
         margin-top: 4em;
