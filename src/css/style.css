@@ -124,21 +124,28 @@ input:focus-visible {
     padding: 0.2em 1.5em;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     section {
         display: flex;
         flex-direction: column;
     }
+    #content {
+        padding: 0;
+        width: 100%;
+    }
+    #logo {
+        padding: 0 1em;
+        margin-top: 2em;
+    }
     #bg {
         visibility: hidden;
     }
-    #bg-mobile {
-        background-image: url("../img/hero-mobile.jpg");
+    #bg-mobile img {
         background-size: contain;
         background-repeat: no-repeat;
-        height: 100vh;
+        text-align: center;
     }
-    #content {
-        padding: 50px;
+    #text {
+        margin-top: 4em;
     }
 }
