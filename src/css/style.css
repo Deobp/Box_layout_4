@@ -161,5 +161,18 @@ input:focus-visible {
     }
     #text {
         margin-top: 4em;
+        text-align: center;
+    }
+    #greeting {
+        font-weight: 400;
+        opacity: 80%;
+    }
+    #form {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    #email {
+        font-weight: 400;
+        opacity: 70%;
     }
 }
