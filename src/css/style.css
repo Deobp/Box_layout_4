@@ -41,7 +41,7 @@ section {
 }
 
 #bg-mobile {
-    visibility: hidden;
+    display: none;
 }
 
 #logo,
@@ -142,7 +142,7 @@ input:focus-visible {
         margin-top: 2em;
     }
     #bg {
-        visibility: hidden;
+        display: block;
     }
     #bg-mobile {
         text-align: center;
@@ -150,7 +150,6 @@ input:focus-visible {
     #bg-mobile img {
         background-size: contain;
         background-repeat: no-repeat;
-        visibility: visible;
         width: 100%;
     }
     #text {
