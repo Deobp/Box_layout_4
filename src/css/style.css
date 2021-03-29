@@ -140,12 +140,19 @@ input:focus-visible {
     #logo {
         padding: 0 1em;
         margin-top: 2em;
+        width: 158px;
+        height: 33px;
+    }
+    #logo img {
+        max-width: 100%;
     }
     #bg {
         display: block;
     }
     #bg-mobile {
         text-align: center;
+        display: block;
+        padding-top: 1em;
     }
     #bg-mobile img {
         background-size: contain;
